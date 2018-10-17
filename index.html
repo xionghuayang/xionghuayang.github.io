@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+ <link style="stylesheet" href="css/base.css" type="text/css">
+<title>图片飞入</title>
+<style>
+	*{margin:0; padding:0;}
+	a{text-decoration:none;}
+	#wrap{
+		position:relative;
+		width:750px;
+		height:1224px;
+		margin:50px auto;
+		box-shadow:0 0 10px #222;
+		/*background-image:url(images/01.jpg);*/
+		
+		}
+	#wrap div{
+		position:absolute;
+		width:125px;
+		height:204px;
+		background-image:url(images/02.jpg);
+		background-repeat:no-repeat;
+		
+		}
+	.btn1{
+		position:fixed;
+		right:20px;
+		top:5px;
+		width:100px;
+		height:100px;
+		border-radius:50%;
+	}
+	.btnlist1{
+		display:block;	
+		width:100px;
+		height:100px;
+		border-radius:50%;
+		background-image:url("images/next.png");
+		line-height:100px;
+		text-align:center;
+		
+	}
+</style>
+
+</head>
+
+<body>
+	<div id="wrap">
+	</div>
+	<div class="btn1">
+		<a  href="index2.html" class="btnlist1" type="button">下一页</a>
+	</div>
+</body>
+<script src="js/moveTimes.js"></script>
+<script>
+	const oWrap=document.getElementById("wrap");
+	const aDiv=oWrap.getElementsByTagName("div");
+	let str="";
+	let index=0;
+	let arr=[];
+	for(let i=0;i<36;i++){
+			arr.push(i);
+		}
+	let {random,floor} = Math;
+	arr.sort(()=>random()-0.5);
+	biu();
+	function biu(){
+			let value=arr[index];
+			if(index>=36) return ;
+			let [top,left]=[floor(value/6)*204,(value%6)*125];
+			oWrap.innerHTML +=`<div></div>`;
+			aDiv[index].style.cssText=`background-position:${-left}px ${-top}px;`;
+			Move(aDiv[index],{top,left},200,function(){
+				index++;
+				requestAnimationFrame(biu);
+				});				
+		}
+</script>
+</html>
