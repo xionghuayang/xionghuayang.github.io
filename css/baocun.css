@@ -1,0 +1,161 @@
+.back {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    padding: 0 .533333rem;
+    background-color: #fff;
+}
+.back i {
+    display: inline-block;
+    width: .266667rem;
+    height: .533333rem;
+    background: url(../images/common/back.png) no-repeat;
+    background-size: .266667rem .533333rem;
+    vertical-align: middle;
+}
+.indent ul {
+    position: fixed;
+    top: 1.173333rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    background-color: #fff;
+    padding-left: .266667rem;
+    height: 1.12rem;
+    line-height: 1.12rem;
+    /* background-color: aqua; */
+}
+.indent li {
+    float: left;
+    position: relative;
+    height: 1.12rem;
+    font-size: .32rem;
+    color: #666;
+    text-align: center;
+    /* margin-right: .56rem; */
+    padding: 0 .24rem;
+}
+.indent li::after {
+    content: '';
+    /* display: block; */
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: .426667rem;
+    height: .213333rem;
+    border-radius: 2.666667rem;
+    background-color: #fddf00;
+    border: .026667rem solid #3B3B3B;
+}
+
+.indent .current {
+    font-size: .533333rem;
+    color: #333;
+}
+.indent .current::after {
+    display: block;
+}
+.indent_items {
+    margin: 2.56rem 0 2rem 0;
+    padding: 0 .533333rem;
+}
+.indent_item {
+    border: .0032rem solid #979797;
+    border-radius: .266667rem;
+    padding: .48rem 0;
+    margin-top: .32rem;
+    box-shadow: .026667rem .026667rem .026667rem  .026667rem  rgba( 0, 0, 0, .2);
+}
+.indent_item h5 {
+    height: .853333rem;
+    font-size: .426667rem;
+    font-weight: 400;
+    line-height: .426667rem;
+    padding: 0 .32rem 0 .533333rem;
+}
+.indent_item h5 span {
+    float: right;
+    font-size: .32rem;
+    color: #E4007B;
+    margin-right: .266667rem;
+}
+.indent_img {
+    height: 1.866667rem;
+    padding: 0 .32rem 0 .533333rem;
+    margin-bottom: .4rem;
+
+}
+.indent_img img {
+    float: left;
+    width: 1.866667rem;
+    height: 1.866667rem;
+    margin-right: .266667rem;
+    border-radius: .266667rem;
+}
+.indent_img i {
+    float: right;
+    width: .186667rem;
+    height: .32rem;
+    background: url(../images/common/more.png) no-repeat;
+    background-size: .186667rem .32rem ;
+    margin: .773333rem .266667rem 0 0;
+}
+.indent_item_price {
+    height: 1.28rem;
+    line-height: 1.28rem;
+    font-size: .32rem;
+    color: #666;
+    border-bottom: .053333rem solid #f7f7f7;
+    padding: 0 .32rem 0 .533333rem;
+}
+.indent_item_unpack .indent_item_price {
+    border: 0;
+}
+.indent_item_price em {
+    font-size: .373333rem;
+    color: #E4007B;
+}
+.indent_item_price b {
+    color: #E4007B;
+    font-size: .266667rem;
+}
+.indent_item_cancel ,
+.indent_item_go ,
+.indent_item_tax {
+    float: right;
+    /* display: inline-block; */
+    width: 1.92rem;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .32rem;
+    color: #333;
+    border-radius: 2.666667rem;
+    margin: .32rem 0 0 .266667rem;
+}
+.indent_item_cancel {
+    border: .026667rem solid #e7e7e7;
+}
+.indent_item_go {
+    background-color: #fddf00;
+    margin-right: .266667rem;
+}
+.indent_item_tax {
+    float: left;
+    background-color: #003A9B;
+    color: #fff;
+}
+.indent_item_complete .indent_item_cancel ,
+.indent_item_exchange .indent_item_cancel {
+    margin-right: .266667rem;
+}
+.indent_item_pick_over .indent_item_cancel ,
+.indent_item_pick_no .indent_item_cancel {
+    color: #999;
+}

@@ -1,0 +1,100 @@
+.back {
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    padding: 0 .533333rem;
+}
+.back a {
+    display: inline-block;
+    width: .266667rem;
+    height: .533333rem;
+    background: url(../images/common/back.png) no-repeat;
+    background-size: .266667rem .533333rem;
+    vertical-align: middle;
+}
+.account_setting {
+    padding: 0 .48rem;
+}
+.account_setting h3 { 
+    height: 1.066667rem;
+    font-size: .533333rem;
+    line-height: .746667rem;
+    font-weight: 400;
+}
+.account_setting h3 span {
+    font-size: .32rem;
+    line-height: .453333rem;
+    color: #999;
+    margin-left: .133333rem;
+}
+.account {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 2.24rem;
+    background: #fddf00;
+    border-radius: .266667rem;
+    margin-bottom: .32rem;
+}
+.account img {
+    margin: 0 .266667rem 0 .533333rem;
+    width: 1.36rem;
+    height: 1.36rem;
+}
+.account p {
+    font-size: .373333rem;
+}
+.account p input {
+    width: 2.933333rem;
+    height: .8rem;
+}
+.account i {
+    /* margin-left: 2.933333rem; */
+    position: absolute;
+    right: .746667rem;
+    width: .186667rem;
+    height: .346667rem;
+    background: url(../images/common/more_account.png) no-repeat;
+    background-size: .186667rem .346667rem;
+}
+.account_detail {
+    height: 3.333333rem; 
+    border: .026667rem solid #f7f7f7;
+    border-radius: .266667rem;
+    margin-bottom: .32rem;
+    
+}
+.account_detail_item {
+    height: 1.653333rem;
+    line-height: 1.653333rem;
+    padding: 0  .746667rem;
+}
+.account_detail_item span {
+    font-size: .373333rem;
+}
+.account_detail_item em {
+    float: right;
+    font-size: .32rem;
+    margin-right: .213333rem;
+}
+.account_detail_item i {
+    float: right;
+    width: .186667rem;
+    height: .373333rem;
+    background: url(../images/common/more_account.png) no-repeat;
+    background-size: .186667rem .373333rem;
+    margin-top: .64rem;
+}
+.account_detail .account_detail_item:nth-child(1) {
+    border-bottom: .026667rem solid #f7f7f7;
+}
+.account_exit {
+    display: block;
+    height: 1.333333rem;
+    border-radius: .266667rem;
+    border: .026667rem solid #f7f7f7;
+    line-height: 1.333333rem;
+    text-align: center;
+    color: #333;
+    font-size: .373333rem;
+    margin-top: 2rem;
+}

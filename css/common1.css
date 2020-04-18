@@ -1,0 +1,107 @@
+@media screen and (min-width:750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?w1tr5y');
+    src:  url('../fonts/icomoon.eot?w1tr5y#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?w1tr5y') format('truetype'),
+      url('../fonts/icomoon.woff?w1tr5y') format('woff'),
+      url('../fonts/icomoon.svg?w1tr5y#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 4.266667rem;
+    max-width: 10rem;
+    width: 10rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-family: Arial, Helvetica;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: .306667rem;
+}
+
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+i {
+    font-style: normal;
+}
+/* 底部css */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 1.333333rem;
+    background-color: #fff;
+    box-shadow: 0 -0.106667rem .16rem 0 rgba(219,219,219,0.50);
+    z-index: 10;
+}
+footer li {
+    float: left;
+    position: relative;
+    margin-left: .533333rem;
+    width: 1.333333rem;
+    height: 1.333333rem;
+    /* background-color: aqua; */
+    text-align: center;
+    cursor: pointer;
+}
+footer li a {
+	display:inline-block;
+	width: 1.333333rem;
+    height: 1.333333rem;
+}
+
+footer li img {
+    display: block;
+    width: .613333rem;
+    height: .613333rem;
+    margin: auto;
+    margin-top: .266667rem;
+}
+footer li p {
+    font-size: .266667rem;
+    color: #3b3b3b;
+}
+footer li:nth-child(3) {
+    position: relative;
+    width: 1.52rem;
+}
+footer li:nth-child(3) img {
+    position: absolute;
+    top: -0.8rem;
+    left: 0;
+    width: 1.52rem;
+    height: 2.026667rem;
+    z-index:-1;
+}
+footer li:nth-child(3) p {
+    margin-top: .88rem;
+}

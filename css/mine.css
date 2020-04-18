@@ -1,0 +1,265 @@
+
+.message {
+    position: relative;
+    width: 10rem;
+    height: .933333rem;
+    margin-top: .8rem;
+}
+
+.message span:nth-child(1) {
+    position: absolute;
+    right: .6rem;
+    top: .12rem;
+    width: .36rem;
+    height: .36rem;
+    background: url(../images/index/inform.png) no-repeat;
+    background-size: .36rem .36rem;
+}
+
+.message span:nth-child(2) {
+    position: absolute;
+    width: .16rem;
+    height: .16rem;
+    top: 0;
+    right: .506667rem;
+    background-color: #f73a4c;
+    border-radius: 50%;
+}
+
+.message span:nth-child(3) {
+    position: absolute;
+    top: .133333rem;
+    left: .506667rem;
+    width: .546667rem;
+    height: .546667rem;
+    background: url(../images/mine/setting.png) no-repeat;
+    background-size: .546667rem .546667rem;
+}
+
+.user_info {
+    display: flex;
+    padding: 0 .533333rem;
+    height: 6.16rem;
+    justify-content: space-between;
+}
+
+.user_info>div:nth-child(1) {
+    width: 7.733333rem;
+    height: 100%;
+    padding: 0 .573333rem;
+    background-color: #003a9b;
+    border-radius: .4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user_info>div:nth-child(1)>div, .user_info>div:nth-child(1)>a {
+    height: 1.36rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: .32rem;
+}
+
+.user_img {
+    display: inline-block;
+    width: 1.36rem;
+    height: 1.36rem;
+    background: url(../images/mine/user-img.png) no-repeat center;
+    background-size: 1.36rem 1.36rem;
+    margin-right: .4rem;
+}
+
+.login, .register {
+    margin: 5px;
+    color: #fff;
+    font-size: .346667rem;
+}
+
+.exchange_rate {
+    font-size: .293333rem;
+}
+
+.exchange_rate span {
+    margin-left: .293333rem;
+    font-size: .6rem;
+}
+
+.member {
+    background-color: #fddf00;
+    border-radius: .2rem;
+    padding: 0 .44rem 0 .293333rem;
+    color: #000!important;
+    font-size: .293333rem;
+    justify-content: space-between;
+}
+
+.member i {
+    display: inline-block;
+    vertical-align: middle;
+    width: .533333rem;
+    height: .453333rem;
+    background: url(../images/mine/member.png) no-repeat center;
+    background-size: .533333rem .453333rem;
+}
+
+.member>span:nth-child(2) {
+    width: .16rem;
+    height: .293333rem;
+    background: url(../images/mine/more.png) no-repeat center;
+    background-size: .16rem .293333rem;
+}
+
+.user_info>div:nth-child(2) {
+    width: .866667rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_info>div:nth-child(2) a {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.indent {
+    position: relative;
+    padding: .933333rem .666667rem;
+}
+
+.title li {
+    /* float: left; */
+    display: inline-block;
+    font-size: .293333rem;
+    color: #666;
+    margin-right: .4rem;
+}
+
+.title .current {
+    font-size: .493333rem;
+    color: #000;
+}
+
+.spacer {
+    position: absolute;
+    top: 2rem;
+    left: 1.493333rem;
+    width: .4rem;
+    height: .186667rem;
+    background-color: #fddf00;
+    border-radius: .093333rem;
+    border: 2px solid #3b3b3b;
+}
+
+.order_info {
+    display: flex;
+    height: 1.28rem;
+    margin-top: .826667rem;
+    justify-content: space-between;
+}
+
+.order_info>a {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order_info>a span {
+    width: .56rem;
+    height: .56rem;
+    background-size: .56rem .56rem!important;
+}
+
+.order_all span {
+    background: url(../images/mine/all.png);
+}
+
+.wait_pay span {
+    background: url(../images/mine/daizhifu.png);
+}
+
+.wait_take span {
+    background: url(../images/mine/daiquhuo.png);
+}
+
+.wait_eva span {
+    background: url(../images/mine/daipingjia.png);
+}
+
+.chaidan span {
+    background: url(../images/mine/SeparateBill.png);
+}
+
+.after_sale span {
+    background: url(../images/mine/tuikuanshouhou.png);
+}
+
+.order_info>a i {
+    font-size: .293333rem;
+}
+
+.service {
+    padding: 0 .733333rem;
+    margin-bottom: 2rem;
+}
+
+.service .title {
+    height: .666667rem;
+    font-size: .48rem;
+}
+
+.ser_bd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ser_bd a {
+    width: 3.92rem;
+    height: 1.44rem;
+    border: 1px solid #e7e7e7;
+    border-radius: .266667rem;
+    margin: .306667rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_discounts span {
+    background: url(../images/mine/discounts.png) no-repeat center;
+    width: .866667rem;
+    height: .733333rem;
+    background-size: .866667rem .733333rem;
+}
+
+.my_favorate span {
+    background: url(../images/mine/my\ favorate.png) no-repeat center;
+    width: .866667rem;
+    height: .733333rem;
+    background-size: .866667rem .733333rem;
+}
+
+.my_eva span {
+    background: url(../images/mine/my\ pingjia.png) no-repeat center;
+    width: .866667rem;
+    height: .733333rem;
+    background-size: .866667rem .733333rem;
+}
+
+.ser_beimiao span {
+    width: .693333rem;
+    height: .8rem;
+    background: url(../images/mine/Service.png) no-repeat center;
+    background-size: .693333rem .8rem;
+}
+
+.ser_bd a i {
+    font-size: .293333rem;
+    margin-left: .133333rem;
+}

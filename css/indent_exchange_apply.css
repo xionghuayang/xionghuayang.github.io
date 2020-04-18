@@ -1,0 +1,138 @@
+.back {
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    padding: 0 .533333rem;
+}
+.back a {
+    display: inline-block;
+    width: .266667rem;
+    height: .533333rem;
+    background: url(../images/common/back.png) no-repeat;
+    background-size: .266667rem .533333rem;
+    vertical-align: middle;
+}
+.indent_apply {
+    margin-bottom: 2rem;
+}
+.indent_apply h3 { 
+    height: 1.066667rem;
+    font-size: .533333rem;
+    line-height: .746667rem;
+    font-weight: 400;
+    padding: 0 .48rem;
+}
+.indent_apply h3 span {
+    font-size: .32rem;
+    line-height: .453333rem;
+    color: #999;
+    margin-left: .133333rem;
+}
+.shopping_products {
+    padding: .48rem;
+}
+.shopping_product {
+    border: .0032rem solid #979797;
+    border-radius: .266667rem;
+    /* padding: 0 .4rem; */
+    margin-bottom: .4rem;
+    box-shadow: .026667rem .026667rem .026667rem  .026667rem  rgba( 0, 0, 0, .2);
+}
+.shopping_product h5 {
+    height: 1.28rem;
+    line-height: 1.28rem;
+    font-size: .373333rem;
+    font-weight: 400;
+    padding: 0 .4rem;
+}
+.product {
+    display: flex;
+    align-items:center; 
+    height: 3.066667rem;
+    border-bottom: .053333rem solid #f7f7f7;
+    border-top: .053333rem solid #f7f7f7;
+    /* background-color: aqua; */
+    /* margin-bottom: .933333rem; */
+}
+.product img {
+    width: 1.866667rem;
+    height: 1.866667rem;
+    margin-left: .186667rem;
+    margin-right: .32rem;
+    border-radius: .266667rem;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+}
+.details i {
+    width: .373333rem;
+    height: .266667rem;
+    background: url(../images/common/flag.png) no-repeat;
+    background-size: .373333rem .266667rem;
+}
+.details p {
+    font-size: .373333rem;
+}
+.details span {
+    font-size: .426667rem;
+    color: #E4007B;
+    margin-top: .16rem;
+    margin-left: -0.133333rem;
+}
+
+.apply {
+    height: 1.493333rem;
+    line-height: 1.493333rem;
+    /* background-color: aqua; */
+    font-size: .32rem;
+}
+.apply span {
+    float: left;
+    margin-left: 2.666667rem;
+}
+.quantity {
+    float: left;
+    width: 2.133333rem;
+    height: .693333rem;
+    border: .026667rem solid #f1f1f1;
+    background-color: #fff;
+    overflow: hidden;
+    margin: .4rem .346667rem 0;
+    
+}
+.decrement,
+.increment {
+    float: left;
+    height: .693333rem;
+    line-height: .693333rem;
+    width: .48rem;
+    text-align: center;
+    color: #333;
+    font-size: .32rem;
+}
+.disabled {
+    cursor: not-allowed;
+    color: #f1f1f1;
+}
+.text {
+    float: left;
+    border-right: .026667rem solid #f1f1f1;
+    border-left: .026667rem solid #f1f1f1;
+    width: 1.066667rem;
+    height: .693333rem;
+    line-height: .693333rem;
+    text-align: center;
+    font-size: .32rem;
+}
+.product_apply {
+    float: left;
+    width: 1.92rem;
+    height: .8rem;
+    border: .026667rem solid #e7e7e7;
+    border-radius: 2.666667rem;
+    line-height: .8rem;
+    text-align: center;
+    margin-top: .32rem;
+    color: #333;
+}
+

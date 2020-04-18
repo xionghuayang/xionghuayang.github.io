@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>贝拍单-假一赔十、商品包税、售后无忧！</title>
+    <!-- 引用ico图标 -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- 引用flexible -->
+    <script src="../js/flexible.js"></script>
+    <!--引用初始化css-->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- 引用公共的css -->
+    <link rel="stylesheet" href="../css/common.css">
+    <!-- 引用分类的css -->
+    <link rel="stylesheet" href="../css/shoppingCar.css">
+    <!-- 引用jQuery.js  -->
+    <script src="../js/jQuery.js"></script>
+    <!-- 引用shoppingCar.js -->
+    <script src="../js/shoppingCar.js"></script>
+</head>
+
+<body>
+
+    <div class="car_empty hide">
+        <img src="../images/common/car_empty.jpg" alt="">
+        <a href="index.html">快去购物吧</a>
+    </div>
+
+    <div class="edit">
+        <a href="javascript:;">编辑</a>
+    </div>
+
+
+    <!-- 购物车 -->
+    <div class="shopping_car">
+        <h3>购物车<span>ショッピング車</span></h3>
+        <!-- 全选 -->
+        <div class="select_all">
+            <div class="select_all_car">
+                <input type="checkbox" name="" id="" class="checkall"><label for="">全选</label>
+                <i>合计:</i> <span class="s_sum">￥9999 <em>.99</em></span>
+                <a href="javascript:;" class="s_creat">生成拍单</a>
+                <a href="javascript:;" class="s_compute">结算（<b>999</b>）</a>
+            </div>
+            <div class="select_all_delete hide">
+                <input type="checkbox" name="" id="" class="checkall"><label for="">全选</label>
+                <a href="javascript:;" class="s_compute s_compute_delete">删除</a>
+            </div>
+        </div>
+        <!-- 购物商品 -->
+        <div class="shopping_products">
+            <!-- 商品店铺1 -->
+            <div class="shopping_product">
+                <h5>
+                    <input type="checkbox" name="" id="" class="check_shop">
+                    <span>Dior专营店</span>
+                    <a href="javascript:;">领劵</a>
+                </h5>
+                <!-- 店铺商品1 -->
+                <div class="product_item clearfix product_item_delete">
+                    <div class="product">
+                        <input type="checkbox" class="check_product">
+                        <img src="../images/shopping_car/product2.png" alt="">
+                        <div class="details">
+                            <i></i>
+                            <p>HITACHICM-N400美容仪</p>
+                            <span>￥666.60</span>
+                            <em class="p_sum hide">￥666.60</em>
+                            <div class="quantity">
+                                <a href="javascript:;" class="decrement disabled">-</a>
+                                <input type="text" class="text" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="product_delete hide">删除</a>
+                </div>
+                <!-- 店铺商品2 -->
+                <div class="product_item clearfix product_item_delete">
+                    <div class="product">
+                        <input type="checkbox" checked class="check_product check_img">
+                        <img src="../images/shopping_car/product2.png" alt="">
+                        <div class="details">
+                            <i></i>
+                            <p>HITACHICM-N400美容仪</p>
+                            <span>￥99.99</span>
+                            <em class="p_sum hide">￥99.99</em>
+                            <div class="quantity">
+                                <a href="javascript:;" class="decrement disabled">-</a>
+                                <input type="text" class="text" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="product_delete hide">删除</a>
+                </div>
+                <!-- 店铺商品3 -->
+                <div class="product_item clearfix product_item_delete">
+                    <div class="product">
+                        <input type="checkbox" checked class="check_product check_img">
+                        <img src="../images/shopping_car/product2.png" alt="">
+                        <div class="details">
+                            <i></i>
+                            <p>HITACHICM-N400美容仪</p>
+                            <span>￥99.99</span>
+                            <em class="p_sum hide">￥99.99</em>
+                            <div class="quantity">
+                                <a href="javascript:;" class="decrement disabled">-</a>
+                                <input type="text" class="text" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="product_delete hide">删除</a>
+                </div>
+            </div>
+            <!-- 商品店铺2 -->
+            <div class="shopping_product">
+                <h5>
+                    <input type="checkbox" name="" id="" class="check_shop">
+                    <span>Dior专营店</span>
+                    <a href="javascript:;">领劵</a>
+                </h5>
+                <!-- 店铺商品1 -->
+                <div class="product_item clearfix product_item_delete">
+                    <div class="product">
+                        <input type="checkbox" checked class="check_product check_img">
+                        <img src="../images/shopping_car/product2.png" alt="">
+                        <div class="details">
+                            <i></i>
+                            <p>HITACHICM-N400美容仪</p>
+                            <span>￥77.77</span>
+                            <em class="p_sum hide">￥77.77</em>
+                            <div class="quantity">
+                                <a href="javascript:;" class="decrement disabled">-</a>
+                                <input type="text" class="text" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="product_delete hide">删除</a>
+                </div>
+                <!-- 店铺商品2 -->
+                <div class="product_item clearfix product_item_delete">
+                    <div class="product">
+                        <input type="checkbox" class="check_product ">
+                        <img src="../images/shopping_car/product2.png" alt="">
+                        <div class="details">
+                            <i></i>
+                            <p>HITACHICM-N400美容仪</p>
+                            <span>￥88.88</span>
+                            <em class="p_sum hide">￥88.88</em>
+                            <div class="quantity">
+                                <a href="javascript:;" class="decrement disabled">-</a>
+                                <input type="text" class="text" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="product_delete hide">删除</a>
+                </div>
+            </div>
+            <!-- 商品店铺3 -->
+            <div class="shopping_product">
+                <h5>
+                    <input type="checkbox" name="" id="" class="check_shop">
+                    <span>Dior专营店</span>
+                    <a href="javascript:;">领劵</a>
+                </h5>
+                <!-- 店铺商品1 -->
+                <div class="product_item clearfix product_item_delete">
+                    <div class="product">
+                        <input type="checkbox" checked class="check_product check_img">
+                        <img src="../images/shopping_car/product2.png" alt="">
+                        <div class="details">
+                            <i></i>
+                            <p>HITACHICM-N400美容仪</p>
+                            <span>￥77.77</span>
+                            <em class="p_sum hide">￥77.77</em>
+                            <div class="quantity">
+                                <a href="javascript:;" class="decrement disabled">-</a>
+                                <input type="text" class="text" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="product_delete hide">删除</a>
+                </div>
+                <!-- 店铺商品2 -->
+                <div class="product_item clearfix product_item_delete">
+                    <div class="product">
+                        <input type="checkbox" class="check_product ">
+                        <img src="../images/shopping_car/product2.png" alt="">
+                        <div class="details">
+                            <i></i>
+                            <p>HITACHICM-N400美容仪</p>
+                            <span>￥88.88</span>
+                            <em class="p_sum hide">￥88.88</em>
+                            <div class="quantity">
+                                <a href="javascript:;" class="decrement disabled">-</a>
+                                <input type="text" class="text" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="product_delete hide">删除</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="../images/common/index.png" alt="">
+                        <p>首页</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="classify.html">
+                        <img src="../images/common/classify.png" alt="">
+                        <p>精致分类</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="travel-plan.html">
+                        <img src="../images/common/journey.png" alt="">
+                        <p>旅行计划</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="shoppingCar.html">
+                        <img src="../images/common/car_select.png" alt="">
+                        <p>购物车</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="mine.html">
+                        <img src="../images/common/main.png" alt="">
+                        <p>我的</p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+</body>
+
+</html>

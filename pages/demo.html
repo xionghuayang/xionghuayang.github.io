@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #ul_1 {
+            text-align: center;
+            padding: 0;
+            width: 120px;
+            height: 50px;
+            list-style-type: none;
+            background-color: rgba(29, 44, 95, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-size: 120px 50px;
+        }
+
+        li {
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            user-select: none;
+            width: 25%;
+        }
+
+        li:nth-child(1) {
+            font-size: 30px;
+            font-weight: bolder;
+            font-style: oblique;
+            color: blue
+        }
+
+        li:nth-child(2) {
+            font-size: 8px;
+            font-weight: 600;
+            font-style: unset;
+            color: aqua
+        }
+
+        li:nth-child(3) {
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            color: royalblue
+        }
+
+        li:nth-child(4) {
+            font-size: 18px;
+            font-weight: inherit;
+            font-style: oblique;
+            color: green
+        }
+    </style>
+    <script src="../js/yanzhengma.js"></script>
+</head>
+
+<body>
+    <ul id="ul_1"></ul>
+    <script>
+        yanzhengma('ul_1');
+        // var str = 'AGko90RT23';
+        // console.log(str.toLowerCase());// 转换小写
+    </script>
+    <!-- <script>
+        let num = yanzhen()()
+        function yanzhen(callk) {
+            let arry = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 0);
+            let arry1 = new Array('q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p')
+            let arrylength = 4;
+            let mathtest = [];
+            let test = null
+            for (i = 0; i < arrylength; i++) {
+                if (i == 0) {
+                    test = parseInt(Math.random() * 20)
+                    mathtest.push(arry1[test])
+                } else if (i == 1) {
+                    test = parseInt(Math.random() * 10)
+                    mathtest[i] = arry[test]
+                } else if (i == 2) {
+                    test = parseInt(Math.random() * 10)
+                    mathtest[i] = arry[test]
+                } else if (i == 3) {
+                    test = parseInt(Math.random() * 20)
+                    mathtest.push(arry1[test])
+                }
+            }
+            return function () {
+                return mathtest
+            }
+        }
+        listul(num)
+        function listul(num1) {
+            var c = new Array('blue', 'green', 'red', 'yellow')
+            console.log(num1)
+            let test = null
+            let ul_1 = '';
+            let listul = document.getElementById('ul_1')
+            for (i = 0; i < num1.length; i++) {
+                test = parseInt(Math.random() * 4)
+                ul_1 += '<li>' + num1[i] + '</li>'
+            }
+            listul.innerHTML = ul_1
+        }
+        let listu2 = document.getElementById('ul_1')
+        listu2.onclick = function () {
+            let arr3 = []
+            num = yanzhen()()
+            aff()
+            listul(num)
+        }
+        aff()
+        function aff() {
+            var f = new Array('../images/common/code1.jpg','../images/common/code2.jpg','../images/common/code3.gif','../images/common/code4.jpg')
+            var g = parseInt(Math.random() * 4)
+            listu2.style.backgroundImage = 'URL' + '(' + f[g] + ')';
+        }
+    </script> -->
+</body>
+
+</html>
